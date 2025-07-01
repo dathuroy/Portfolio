@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Typing animation for hero title
     function typeWriter() {
-        const text = "Hi, I'm Lakshmi tejaswini Nasimsetty";
+        const text = "Hi, I'm Siva Dathu Pranay Nasimsetty";
         const heroTitle = document.querySelector('.hero-title');
         let i = 0;
         
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(type, 100);
             } else {
                 setTimeout(() => {
-                    heroTitle.innerHTML = 'Hi, I\'m <span class="text-gradient">Lakshmi tejaswini Nasimsetty</span>';
+                    heroTitle.innerHTML = 'Hi, I\'m <span class="text-gradient">Siva Dathu Pranay Nasimsetty</span>';
                 }, 500);
             }
         }
